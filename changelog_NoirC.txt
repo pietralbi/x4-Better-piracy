@@ -1,0 +1,8 @@
+11/21/21
+1. removed invalid "marine damaged ship" patch in "move.claim.xml"
+2. modified the min limit to fix the infinite damageShield in "betterpiracy_config.xml"
+3. add match SCA default paint mod check for corsair in "betterpiracy.order.fight.corsair.xml"
+
+12/03/21
+1. send signal_objects every check_interval in "betterpiracy_harass.xml" (fix various bugs including correctly abort harass order)
+2. added cease fire command to defencenpc in abort cue in "betterpiracy.order.fight.harass.xml"

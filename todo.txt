@@ -1,0 +1,5 @@
+Dont' know if you'res till supporting this, but I was checking/debugging a mod of my own and noticed a few alerts for this one. Regardless, love this mod! Makes boarding and bailing much less annoying.
+
+move.claim.xml: the marine claim damage check seems to have changed from '$damagemaxpercent lt 100' to '$damagemaxpercent gt 0' and the selector now fails to find/remove the node.
+
+move.flee.dock.xml: there are two find_station nodes now, though they both seems to include the relationship check yours does. Maybe don't need this now? 
